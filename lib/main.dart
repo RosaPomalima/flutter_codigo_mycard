@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.indigo,
+        backgroundColor: Colors.orange,
         body: SafeArea(
             child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -21,6 +21,9 @@ class MyApp extends StatelessWidget {
               /* backgroundImage: NetworkImage(
                   "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"),*/
             ),
+            SizedBox(
+              height: 15.0,
+            ),
             Text(
               "Sofia Salazar Monteblanco",
               style: TextStyle(
@@ -28,6 +31,9 @@ class MyApp extends StatelessWidget {
                   fontSize: 22.0,
                   fontWeight: FontWeight.w700,
                   fontFamily: "Oswaldo"),
+            ),
+            SizedBox(
+              height: 4.0,
             ),
             Text(
               "FLUTTER DEVELOPER",
@@ -37,6 +43,18 @@ class MyApp extends StatelessWidget {
                 //ESPACIO ENTRE LAS LETRAS
                 letterSpacing: 3.0,
                 fontWeight: FontWeight.w400,
+              ),
+            ),
+            SizedBox(
+              width: 130.0,
+              child: Divider(
+                //Grosor
+                thickness: 0.8,
+                color: Colors.white54,
+                /*
+                Dar espacios al inicio y al
+                indent: 40.0,
+                endIndent: 40.0,*/
               ),
             ),
             Card(
@@ -83,6 +101,35 @@ class MyApp extends StatelessWidget {
                   color: Colors.indigo,
                 ),
               ),
+            ),
+            SizedBox(
+              height: 20.0,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Image.asset(
+                  "assets/images/facebook.png",
+                  width: 70.0,
+                  height: 70.0,
+                ),
+                SizedBox(
+                  width: 15.0,
+                ),
+                Image.asset(
+                  "assets/images/instagram.png",
+                  width: 70.0,
+                  height: 70.0,
+                ),
+                SizedBox(
+                  width: 15.0,
+                ),
+                Image.asset(
+                  "assets/images/linkedin.png",
+                  width: 70.0,
+                  height: 70.0,
+                ),
+              ],
             )
           ],
         )),
