@@ -68,14 +68,14 @@ class MyApp extends StatelessWidget {
                 //Izquieda
                 leading: Icon(
                   Icons.phone,
-                  color: Colors.indigo,
+                  color: Colors.orange,
                 ),
                 title: Text("+51 987876456"),
                 subtitle: Text("Teléfono"),
                 //Derecha
                 trailing: Icon(
                   Icons.check_circle_outline,
-                  color: Colors.indigo,
+                  color: Colors.orange,
                 ),
               ),
             ),
@@ -90,7 +90,7 @@ class MyApp extends StatelessWidget {
                 //Izquieda
                 leading: Icon(
                   Icons.email,
-                  color: Colors.indigo,
+                  color: Colors.orange,
                 ),
                 //Centro
                 title: Text("sofia@gmail.com"),
@@ -98,7 +98,7 @@ class MyApp extends StatelessWidget {
                 //Derecha
                 trailing: Icon(
                   Icons.check_circle_outline,
-                  color: Colors.indigo,
+                  color: Colors.orange,
                 ),
               ),
             ),
